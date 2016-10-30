@@ -15,16 +15,17 @@ public class TestLinkList {
 //		linkList.add(5, "E");
 //		linkList.add(6, "E");  //如果第五个节点不插 直接插入第六个是不可以的，越界，不是说大小固定 而是只能连续插入，不能中间空着往后面插
 
-		for (int i = 0; i < linkList.getSize(); i++) {
-			System.out.print(linkList.get(i)+" ");
-		}
+		linkList.printPre();
 		System.out.println("\n=====");
 		linkList.delete(1);
 		linkList.update(1, "F");
 		linkList.add(1, "G");
-		for (int i = 0; i < linkList.getSize(); i++) {
-			System.out.print(linkList.get(i)+" ");
-		}
+		linkList.printPre();
+		System.out.println();
+		System.out.println(linkList.find("F"));
+		linkList.printPre();
+		System.out.println();
+		linkList.printPos();
 	}
 
 }
