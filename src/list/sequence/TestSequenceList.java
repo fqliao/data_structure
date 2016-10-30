@@ -1,9 +1,9 @@
 package list.sequence;
 
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 import introduction.Student;
 
@@ -24,6 +24,8 @@ public class TestSequenceList {
 		list.delete(1);
 		list.add(0,s4);
 		System.out.println(list);
+		
+		
 	}
 }
 
