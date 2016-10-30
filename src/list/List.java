@@ -1,6 +1,5 @@
 package list;
 
-import java.util.Arrays;
 
 public interface List<T> {
 	//增加元素
