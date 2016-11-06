@@ -1,11 +1,7 @@
 package list.sequence;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
-
-import introduction.Student;
 
 public class TestSequenceList {
 

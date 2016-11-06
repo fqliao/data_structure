@@ -1,10 +1,7 @@
 package list.sequence;
 
 import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Date;
 
-import introduction.Student;
 import list.List;
 
 public class SequenceList<T> implements List<T>{
